@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head >
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    crossorigin="anonymous"
+
+    <title>Papeleria</title>
+    <link rel="stylesheet" href="productos.component.css">
+  </head>
+  <div class="contenedor2">
+    <button class="boton1" style="margin-right: 20px;">
+        <a [routerLink]= "['/principal']">
+            <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png" width="50" height="50">
+        </a>
+    </button>
+    <div class="flexsearch">
+		  <div class="flexsearch--wrapper">
+			  <form class="flexsearch--form" action="#" method="post">
+				  <div class="flexsearch--input-wrapper">
+					  <input class="flexsearch--input" type="search" placeholder="search">
+				  </div>
+				  <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+			  </form>
+		  </div>
+    </div>
+  </div>
+  <body class="contenedor">
+    <form class="form-principal">
+        <div class="contenedor1">
+            <h5 style="font-size: 20px;">Tipo:</h5><br>
+            <input type="radio" name="filtro" id="todo" for="todo" checked>Todo      
+            <input type="radio" name="filtro" id="esenciales" for="esenciales">Esenciales
+            <input type="radio" name="filtro" id="naturales" for="naturales">Naturales
+            <input type="radio" name="filtro" id="genericos" for="genericos">Genericos
+            <input type="radio" name="filtro" id="vitales" for="vitales">Vitales
+            
+            <div id="imagenes">
+                <div class="conte esenciales">
+                    <div class="card stromtroper">
+                        <img src="../../assets/imagenes/casa.png" alt="">      
+                    </div>
+                    <div class="informacion">
+                        <h1>Libreta</h1>
+                    </div>
+                    <div class="precio">
+                        <div class="box-precio">
+                            <span class="shoping"><i class="fas fa-cart-plus"></i>12</span>
+                        </div>
+                    </div>
+                    <div class="card stromtroper">
+                        <img src="../../assets/imagenes/fondo.jpg" alt="">      
+                    </div>
+                    <div class="informacion">
+                        <h1>Libreta</h1>
+                    </div>
+                    <div class="precio">
+                        <div class="box-precio">
+                            <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="conte naturales">
+                    <div class="card stromtroper">
+                        <img src="../../assets/imagenes/fondo.jpg" alt="">      
+                    </div>
+                    <div class="informacion">
+                        <h1>Libreta</h1>
+                    </div>
+                    <div class="precio">
+                        <div class="box-precio">
+                            <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="genericos">
+
+                </div>
+                <div class="vitales">
+
+                </div>
+            </div>
+        </div>
+    </form>
+  </body>
+</html>
+

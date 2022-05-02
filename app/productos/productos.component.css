@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: arial;
+  }
+
+  .contenedor {
+	width: 1496px;
+    height: 90px;
+	margin: auto;
+	padding: 10px 0;
+	display: flex;
+    min-height: 100%;
+    background-size:cover;
+}
+.boton1{
+	width: 0px;
+	height: 0px;
+	border: none;
+	margin-left: 30px;
+    display: block;
+}
+.image--cover {
+    width: 55px;
+    height: 55px;
+    background-color: #D5A6BD;
+    object-fit: cover;
+    object-position: center right;
+    text-decoration-line: none;
+  }
+.contenedor2 {
+  width: 1496px;
+  height: 89px;
+  margin: auto;
+  display: flex;
+  background-size:cover;
+  padding-top: 12px;
+  background-color: #D5A6BD;
+}
+
+ /**Diseño buscador
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+    margin-left: 350px;
+	height: 80px;
+	width: auto;
+	overflow: hidden;
+	background: transparent;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+  padding: 0 170px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 0px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 6px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+/**Catalogo deseño*/
+
+.conte_parent{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  
+}
+.conte{
+    height: 510px;
+    width: 350px;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .stromtroper img{
+    height: 330px;
+    width: 300px;
+}
+.conte .stromtroper{
+     background-color: #111;
+}
+.conte .iron-man{
+    background-color: #6A0C0B;
+}
+.conte .spider-man{
+    background-color:#B11313;
+}
+.conte .iron-man img{
+    height: 330px;
+    width: 230px;
+}
+.conte .spider-man img{
+    height: 330px;
+    width: 300px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
