@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { PrincipalComponent} from './principal/principal.component';
 import { ProductosComponent } from './productos/productos.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 const routes: Routes = [  
 {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path:'informacion',
     component: InformacionComponent,
+  },
+  {
+    path:'prueba',
+    component: PruebaComponent,
   },
 ];
 

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head >
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -9,11 +10,72 @@
 
     <title>Papeleria</title>
     <link rel="stylesheet" href="productos.component.css">
+    <link rel="stylesheet" href="productos.component.scss">
   </head>
+  <div>
+    <input id="hamburger" class="hamburger" type="checkbox" />
+    <label for="hamburger" class="hamburger">
+        <i></i>
+      </label>
+      <nav class="primnav">
+        <ul>
+          <li><br>
+          </li><br>
+          <li>
+            <a>
+                <img  src="../../assets/imagenes/globo-terraqueo.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                <a src="" style="margin-left: 18px; cursor:pointer"><b>Escolar</b></a>
+            </a>
+          </li><br>
+          <li>
+            <a>
+                <img  src="../../assets/imagenes/calendario.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                <a src="" style="margin-left: 18px; cursor:pointer"><b>Temporada</b></a>
+            </a>
+            <ul class="secnav">
+                <li>
+                  <a src="" class="menuP"><i>14 de Febrero-Dia del amor y la amistad</i></a>
+                </li>
+                <li>
+                  <a src="" class="menuP"><i>Marzo-Accesorios para desfiles</i></a>
+                </li>
+                <li>
+                  <a src="" class="menuP"><i>10 Mayo-Dia de la madre</i></a>
+                </li>
+                <li>
+                  <a src="" class="menuP"><i>Junio-Graduaciones</i></a>
+                </li>
+                <li>
+                  <a src="" class="menuP"><i>Septiembre-Patriotico</i></a>
+                </li>
+                <li>
+                  <a src="" class="menuP"><i>Noviembre-Dia de muertos</i></a>
+                </li>
+                <li>
+                  <a src="" class="menuP"><i>Diciembre-Adornos navideños</i></a>
+                </li>
+              </ul>
+          </li>
+          <li><br>
+            <a>
+                <img  src="../../assets/imagenes/euro.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                <a src="" class="menuP" style="margin-left: 18px;"><b>Mas vendido</b></a>
+            </a>
+          </li>
+          <li><br>
+              <a>
+                  <img  src="../../assets/imagenes/24-horas.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                  <a src="" class="menuP" style="margin-left: 18px;"><b>Ofertas</b></a>
+              </a>
+            </li>
+        </ul>
+      </nav>
+  </div>
+ 
   <div class="contenedor2">
     <button class="boton1" style="margin-right: 20px;">
         <a [routerLink]= "['/principal']">
-            <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png" width="50" height="50">
+            <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png">
         </a>
     </button>
     <div class="flexsearch">
@@ -29,13 +91,10 @@
   </div>
   <body class="contenedor">
     <form class="form-principal">
-        <div class="contenedor1">
-            <h5 style="font-size: 20px;">Tipo:</h5><br>
-            <input type="radio" name="filtro" id="todo" for="todo" checked>Todo      
-            <input type="radio" name="filtro" id="esenciales" for="esenciales">Esenciales
-            <input type="radio" name="filtro" id="naturales" for="naturales">Naturales
-            <input type="radio" name="filtro" id="genericos" for="genericos">Genericos
-            <input type="radio" name="filtro" id="vitales" for="vitales">Vitales
+        <div class="contenedor1" style="margin-left: 70px;">
+            <h5 style="font-size: 20px;">Ordenar por:</h5>     
+            <input type="radio" name="filtro" id="alfabetico" for="alfabetico">Alfabetico <br>
+            <input type="radio" name="filtro" id="precio" for="precio">Precio<br>
             
             <div id="imagenes">
                 <div class="conte esenciales">
@@ -76,14 +135,18 @@
                     </div>
                 </div><br>
                 <div class="genericos">
-
+        
                 </div>
                 <div class="vitales">
-
+        
                 </div>
             </div>
-        </div>
+        </div>          
     </form>
+  
+      
+   
   </body>
+  
 </html>
 

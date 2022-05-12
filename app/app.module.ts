@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { ProductosComponent } from './productos/productos.component';
 import { InformacionComponent } from './informacion/informacion.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
     ProductosComponent,
-    InformacionComponent
+    InformacionComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,

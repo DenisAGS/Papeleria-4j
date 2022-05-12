@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head >
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papeleria</title>
     <link rel="stylesheet" href="principal.component.css">
   </head>
   <div class="contenedor2">
-      <a [routerLink]= "['/productos']" style="font-weight: 800; font-size: xx-large; text-decoration: none; color: #333333;margin-left: 200px;" >
-        Productos
+      <a [routerLink]= "['/productos']">
+        <button class="button1" >Productos</button>
       </a>
 
     <div class="flexsearch">
@@ -24,8 +25,8 @@
   <body class="contenedor">
     <form class="form-principal">
       <div>
-        <p style="margin-top: 260px; margin-left: 420px;">
-          <a style="font-weight: 400; color: #333333; font-size: 130px; text-decoration: none; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" >
+        <p style="margin-top: 250px; margin-left: 420px;">
+          <a class="namePapeleria" >
             Papeleria
           </a>
       </p>
@@ -35,14 +36,18 @@
   </body>
   <div class="contenedor-datos">
     <div class="contenedor-direccion">
-      <div style="display:block; font-size: x-large; padding: 20px;">
-        <img src="../../assets/imagenes/gmail.png" width="30" height="30" style="margin-left: 70px;">     
+      <div class="datos" style="padding: 16px;">
+        <img src="../../assets/imagenes/informacion/gmail.png" width="30" height="30" style="margin-left: 70px;">     
         <label style="margin-left: 20px;">8138adriana@gmail.com</label>
     </div>
-    <br>
-    <div style="display:block; font-size: x-large; padding: 20;">
-      <img src="../../assets/imagenes/llamada.png" width="30" height="30" style="margin-left: 140px;">    
+    <div class="datos" style="padding: 6px;">
+      <img src="../../assets/imagenes/informacion/llamada-telefonica.png" width="30" height="30" style="margin-left: 140px;">    
       <label style="margin-left: 20px;">272-722-2307</label>
+    </div>
+    <br>
+    <div class="datos">
+      <img src="../../assets/imagenes/informacion/whatsapp.png" width="30" height="30" style="margin-left: 140px;">    
+      <label style="margin-left: 20px;">272-593-1130</label>
     </div>
     </div>
   </div>

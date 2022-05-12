@@ -3,7 +3,32 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  .button1 {
+    background-color:lightgrey;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 22px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: xx-large; 
+    color: #333333;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+  .namePapeleria{
+    font-weight: 400; 
+    color: #333333; 
+    font-size: 130px; 
+    text-decoration: none; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .datos{
+    display:block; 
+    font-size: x-large;
+  }
+
   body {
     font-family: arial;
   }
@@ -32,7 +57,7 @@
   display: flex;
   background-size:cover;
   padding-top: 12px;
-  background-color: #D5A6BD;
+  background-color: #EA899A;
 }
 .contenedor-datos {
   width: 1346px;
