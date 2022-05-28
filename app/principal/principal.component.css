@@ -12,9 +12,24 @@
     display: inline-block;
     font-weight: 800;
     text-decoration: none;
-    font-size: xx-large; 
+    font-size: x-large; 
     color: #333333;
-    margin-left: 200px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  .datos {
+    background-color:lightgrey;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 22px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: x-large; 
+    color: #333333;
+    margin-left: 50px;
     cursor: pointer;
   }
   .namePapeleria{
@@ -24,7 +39,7 @@
     text-decoration: none; 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-  .datos{
+  .datoscont{
     display:block; 
     font-size: x-large;
   }

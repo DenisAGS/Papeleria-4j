@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="principal.component.css">
   </head>
   <div class="contenedor2">
+    <nav>
+      <button class="datos">
+        <a href="#datos" style="text-decoration: none;">Contacto</a>
+      </button>
+    </nav>
       <a [routerLink]= "['/productos']">
         <button class="button1" >Productos</button>
       </a>
@@ -34,22 +39,24 @@
       </div>
     </form>
   </body>
-  <div class="contenedor-datos">
-    <div class="contenedor-direccion">
-      <div class="datos" style="padding: 16px;">
-        <img src="../../assets/imagenes/informacion/gmail.png" width="30" height="30" style="margin-left: 70px;">     
-        <label style="margin-left: 20px;">8138adriana@gmail.com</label>
+  <section class="datoscont" id="datos">
+    <div class="contenedor-datos">
+      <div class="contenedor-direccion">
+        <div class="datoscont" style="padding: 16px;">
+          <img src="../../assets/imagenes/informacion/gmail.png" width="30" height="30" style="margin-left: 70px;">     
+          <label style="margin-left: 20px;">8138adriana@gmail.com</label>
+      </div>
+      <div class="datoscont" style="padding: 6px;">
+        <img src="../../assets/imagenes/informacion/llamada-telefonica.png" width="30" height="30" style="margin-left: 140px;">    
+        <label style="margin-left: 20px;">272-722-2307</label>
+      </div>
+      <br>
+      <div class="datoscont">
+        <img src="../../assets/imagenes/informacion/whatsapp.png" width="30" height="30" style="margin-left: 140px;">    
+        <label style="margin-left: 20px;">272-593-1130</label>
+      </div>
+      </div>
     </div>
-    <div class="datos" style="padding: 6px;">
-      <img src="../../assets/imagenes/informacion/llamada-telefonica.png" width="30" height="30" style="margin-left: 140px;">    
-      <label style="margin-left: 20px;">272-722-2307</label>
-    </div>
-    <br>
-    <div class="datos">
-      <img src="../../assets/imagenes/informacion/whatsapp.png" width="30" height="30" style="margin-left: 140px;">    
-      <label style="margin-left: 20px;">272-593-1130</label>
-    </div>
-    </div>
-  </div>
+  </section>
 </html>
 

@@ -10,6 +10,11 @@
 .nav{
   transition:all .5s ease; 
 }
+.contenedor1{
+  width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+}
   .contenedor {
 	  width: 1348px;
     height: 90px;
@@ -18,9 +23,13 @@
 	  display: flex;
     min-height: 100%;
     background-size:cover;
-    position:absolute;
+    position:relative;
     transition: all .5s ease; /*Añadimos una transición para que realice un desplazamineto suave*/
 }
+.contenedor3{
+  position: relative;
+}
+
 .menuP{
   cursor: pointer;
 }
