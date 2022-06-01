@@ -12,99 +12,265 @@
     <link rel="stylesheet" href="productos.component.css">
     <link rel="stylesheet" href="productos.component.scss">
   </head>
-  <div class="contenedor3">
-    <input id="hamburger" class="hamburger" type="checkbox" />
-    <label for="hamburger" class="hamburger">
-        <i></i>
-      </label>
-      <nav class="primnav">
-        <ul>
-          <li><br>
-          </li><br>
-          <li>
-            <a>
-                <img  src="../../assets/imagenes/globo-terraqueo.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
-                <a id="escolar" for="escolar" src="" style="margin-left: 18px; cursor:pointer"><b>Escolar</b></a>
-            </a>
-          </li><br>
-          <li>
-            <a>
-                <img  src="../../assets/imagenes/calendario.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
-                <a id="temporada" for="" src="" style="margin-left: 18px; cursor:pointer"><b>Temporada</b></a>
-            </a>
-            <ul class="secnav">
-                <li>
-                  <a src="" class="menuP"><i>14 de Febrero-Dia del amor y la amistad</i></a>
-                </li>
-                <li>
-                  <a src="" class="menuP"><i>Marzo-Accesorios para desfiles</i></a>
-                </li>
-                <li>
-                  <a src="" class="menuP"><i>10 Mayo-Dia de la madre</i></a>
-                </li>
-                <li>
-                  <a src="" class="menuP"><i>Junio-Graduaciones</i></a>
-                </li>
-                <li>
-                  <a src="" class="menuP"><i>Septiembre-Patriotico</i></a>
-                </li>
-                <li>
-                  <a src="" class="menuP"><i>Noviembre-Dia de muertos</i></a>
-                </li>
-                <li>
-                  <a src="" class="menuP"><i>Diciembre-Adornos navideños</i></a>
-                </li>
-              </ul>
-          </li>
-          <li><br>
-            <a>
-                <img  src="../../assets/imagenes/euro.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
-                <a src="" class="menuP" style="margin-left: 18px;"><b>Mas vendido</b></a>
-            </a>
-          </li>
-          <li><br>
+  <body>
+    <div class="contenedor3">
+      <input id="hamburger" class="hamburger" type="checkbox" />
+      <label for="hamburger" class="hamburger">
+          <i></i>
+        </label>
+        <nav class="primnav">
+          <ul>
+            <li><br>
+            </li><br>
+            <li id="escolar">
               <a>
-                  <img  src="../../assets/imagenes/24-horas.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
-                  <a src="" class="menuP" style="margin-left: 18px;"><b>Ofertas</b></a>
+                  <img  src="../../assets/imagenes/globo-terraqueo.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                  <a id="escolar" for="escolar" src="" style="margin-left: 18px; cursor:pointer"><b>Escolar</b></a>
+              </a>
+            </li><br>
+            <li id="temporada">
+              <a>
+                  <img  src="../../assets/imagenes/calendario.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                  <a id="temporada" for="" src="" style="margin-left: 18px; cursor:pointer"><b>Temporada</b></a>
+              </a>
+              <ul class="secnav">
+                  <li id="febrero">
+                    <a src="" class="menuP"><i>14 de Febrero-Dia del amor y la amistad</i></a>
+                  </li>
+                  <li>
+                    <a src="" class="menuP"><i>Marzo-Accesorios para desfiles</i></a>
+                  </li>
+                  <li>
+                    <a src="" class="menuP"><i>10 Mayo-Dia de la madre</i></a>
+                  </li>
+                  <li>
+                    <a src="" class="menuP"><i>Junio-Graduaciones</i></a>
+                  </li>
+                  <li>
+                    <a src="" class="menuP"><i>Septiembre-Patriotico</i></a>
+                  </li>
+                  <li>
+                    <a src="" class="menuP"><i>Noviembre-Dia de muertos</i></a>
+                  </li>
+                  <li>
+                    <a src="" class="menuP"><i>Diciembre-Adornos navideños</i></a>
+                  </li>
+                </ul>
+            </li>
+            <li><br>
+              <a>
+                  <img  src="../../assets/imagenes/euro.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                  <a src="" class="menuP" style="margin-left: 18px;"><b>Mas vendido</b></a>
               </a>
             </li>
-        </ul>
-      </nav>
-  </div>
- 
-  <div class="contenedor2">
-    <button class="boton1" style="margin-right: 20px;">
-        <a [routerLink]= "['/principal']">
-            <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png">
-        </a>
-    </button>
-    <div class="flexsearch">
-		  <div class="flexsearch--wrapper">
-			  <form class="flexsearch--form" action="#" method="post">
-				  <div class="flexsearch--input-wrapper">
-					  <input class="flexsearch--input" type="search" placeholder="search">
-				  </div>
-				  <input class="flexsearch--submit" type="submit" value="&#10140;"/>
-			  </form>
-		  </div>
+            <li><br>
+                <a>
+                    <img  src="../../assets/imagenes/24-horas.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
+                    <a src="" class="menuP" style="margin-left: 18px;"><b>Ofertas</b></a>
+                </a>
+              </li>
+          </ul>
+        </nav>
     </div>
-  </div>
-  <body class="contenedor">
-          <div class="contenedor1;" style="margin-left: 70px;">
-            <h5 style="font-size: 20px;">Ordenar por:</h5>     
-            <input type="radio" name="filtro" data-filtrer=".alfabetico" id="alfabetico" for="alfabetico">Alfabetico <br>
-            <input type="radio" name="filtro" data-filtrer="precio" id="precio" for="precio">Precio<br>
-            
-              <div id="imagenes">
-                <div class="alfabetico">
-                    <img src="./../../assets/imagenes/productos/BROCHES.jpg" alt="" style="height: 200px; width: 250px">
-                </div><br><br><br>
-                <div class="precio">
-                    <img src="./../../assets/imagenes/productos/descarga.jpg" alt="" style="height: 200px; width: 250px">
-                </div>
-              </div>
-          </div>          
+   
+    <div class="contenedor2">
+      <button class="boton1" style="margin-right: 20px;">
+          <a [routerLink]= "['/principal']">
+              <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png">
+          </a>
+      </button>
+      <div class="flexsearch">
+        <div class="flexsearch--wrapper">
+          <form class="flexsearch--form" action="#" method="post">
+            <div class="flexsearch--input-wrapper">
+              <input class="flexsearch--input" type="search" placeholder="search">
+            </div>
+            <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="contenedor1" style="margin-left: 70px;">
+        <h5 style="font-size: 20px;">Ordenar por:</h5>     
+        <input type="radio" name="filtro" data-filtrer=".alfabetico" id="alfabetico" for="alfabetico">Alfabetico <br>
+        <input type="radio" name="filtro" data-filtrer="precio" id="precio" for="precio">Precio<br>
+      </div> 
+    </div>
+
+    <section class="work" style="margin-left: 50px;">
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/BROCHES.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Broche</dd>
+            <dt>Precio</dt>
+            <dd>$12.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/descarga.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Compas</dd>
+            <dt>Precio</dt>
+            <dd>$20.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/agenda.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Agenda</dd>
+            <dt>Precio</dt>
+            <dd>$45.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/carpeta individual.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Carpeta individual</dd>
+            <dt>Precio</dt>
+            <dd>$50.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/carpeta.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Carpeta</dd>
+            <dt>Precio</dt>
+            <dd>$40.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/colores.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Lapices de colores</dd>
+            <dt>Precio</dt>
+            <dd>$36.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/lapiceros.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Lapiceros</dd>
+            <dt>Precio</dt>
+            <dd>$10.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/libreta.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Libreta</dd>
+            <dt>Precio</dt>
+            <dd>$25.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/marcadores.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Marcadores</dd>
+            <dt>Precio</dt>
+            <dd>$32.00</dd>
+          </dl>  
+        </a>
+      </figure>
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/plumon.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Plumon</dd>
+            <dt>Precio</dt>
+            <dd>$15.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/reglas.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Reglas</dd>
+            <dt>Precio</dt>
+            <dd>$20.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/sacapuntas.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Sacapuntas</dd>
+            <dt>Precio</dt>
+            <dd>$10.00</dd>
+          </dl>  
+        </a>
+      </figure>
+
+      <figure class="escolar">
+        <a href="">
+          <img src="./../../assets/imagenes/productos/tijeras.jpg" alt="">
+          <dl>
+            <dt>Escolar</dt>
+            <dd>Tijeras</dd>
+            <dt>Precio</dt>
+            <dd>$16.00</dd>
+          </dl>  
+        </a>
+      </figure>
+    </section>
+    <!--<div class="contenedor">
+      <div class="contenedor1; imagenes" style="margin-left: 70px;">
+        <h5 style="font-size: 20px;">Ordenar por:</h5>     
+        <input type="radio" name="filtro" data-filtrer=".alfabetico" id="alfabetico" for="alfabetico">Alfabetico <br>
+        <input type="radio" name="filtro" data-filtrer="precio" id="precio" for="precio">Precio<br>
+        
+          <div id="imagenes">
+            <div class="alfabetico">
+                <img src="./../../assets/imagenes/productos/BROCHES.jpg" alt="" style="height: 200px; width: 250px">
+            </div><br><br><br>
+            <div class="precio">
+                <img src="./../../assets/imagenes/productos/descarga.jpg" alt="" style="height: 200px; width: 250px">
+            </div>
+          </div>
+      </div> 
+    </div>  -->       
   </body>
-  
+  <script src="../productos/productos.component.js"></script>
 </html>
 
