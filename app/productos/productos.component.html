@@ -25,7 +25,7 @@
             <li id="escolar">
               <a>
                   <img  src="../../assets/imagenes/globo-terraqueo.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
-                  <a id="escolar" for="escolar" src="" style="margin-left: 18px; cursor:pointer"><b>Escolar</b></a>
+                  <a id="escolar" for="escolar" src="" style="margin-left: 18px; cursor:pointer"><b>Escolar / Oficina</b></a>
               </a>
             </li><br>
             <li id="temporada">
@@ -34,26 +34,11 @@
                   <a id="temporada" for="" src="" style="margin-left: 18px; cursor:pointer"><b>Temporada</b></a>
               </a>
               <ul class="secnav">
-                  <li id="febrero">
-                    <a src="" class="menuP"><i>14 de Febrero-Dia del amor y la amistad</i></a>
-                  </li>
                   <li>
-                    <a src="" class="menuP"><i>Marzo-Accesorios para desfiles</i></a>
+                    <a src="" class="menuP"><i>Abril-Dia del niño</i></a>
                   </li>
                   <li>
                     <a src="" class="menuP"><i>10 Mayo-Dia de la madre</i></a>
-                  </li>
-                  <li>
-                    <a src="" class="menuP"><i>Junio-Graduaciones</i></a>
-                  </li>
-                  <li>
-                    <a src="" class="menuP"><i>Septiembre-Patriotico</i></a>
-                  </li>
-                  <li>
-                    <a src="" class="menuP"><i>Noviembre-Dia de muertos</i></a>
-                  </li>
-                  <li>
-                    <a src="" class="menuP"><i>Diciembre-Adornos navideños</i></a>
                   </li>
                 </ul>
             </li>
@@ -63,22 +48,11 @@
                   <a src="" class="menuP" style="margin-left: 18px;"><b>Mas vendido</b></a>
               </a>
             </li>
-            <li><br>
-                <a>
-                    <img  src="../../assets/imagenes/24-horas.gif" width="40" height="40" style="margin-left: 6px; background-color: blue">
-                    <a src="" class="menuP" style="margin-left: 18px;"><b>Ofertas</b></a>
-                </a>
-              </li>
           </ul>
         </nav>
     </div>
    
     <div class="contenedorBusqueda">
-      <button class="boton1" style="margin-right: 20px;">
-          <a [routerLink]= "['/principal']">
-              <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png">
-          </a>
-      </button>
       <div class="flexsearch">
         <div class="flexsearch--wrapper">
           <form class="flexsearch--form" action="#" method="post">
@@ -89,11 +63,37 @@
           </form>
         </div>
       </div>
+      
+      <div class="contenedor-datos">
+        <div class="contenedor-direccion">
+          <div class="datoscont">
+            <img src="../../assets/imagenes/informacion/gmail.png" width="20" height="20" style="margin-left: 200px;">     
+            <label style="margin-left: 20px;">8138adriana@gmail.com</label>
+        </div>
+        <div class="datoscont">
+          <img src="../../assets/imagenes/informacion/llamada-telefonica.png" width="20" height="20" style="margin-left: 250px;">    
+          <label style="margin-left: 20px;">272-722-2307</label>
+        </div>
+        <div class="datoscont">
+          <img src="../../assets/imagenes/informacion/whatsapp.png" width="20" height="20" style="margin-left: 250px;">    
+          <label style="margin-left: 20px;">272-593-1130</label>
+        </div>
+        </div>
+      </div>
+
+        <div>
+          <p style="margin-right: 130px;">
+            <a class="namePapeleria" >
+              Papeleria
+            </a>
+        </p>
+          <img class="imagenlogo" src="../../assets/imagenes/4j.png">
+        </div>
     </div>
 
     <section class="work" style="margin-left: 50px;">
       <figure class="escolar">
-        <a [routerLink]= "['/informacion']">
+        <a routerLink="/informacion">
           <img src="./../../assets/imagenes/productos/BROCHES.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
@@ -106,107 +106,107 @@
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/descarga.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/bluesky mini $117.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Compas</dd>
+            <dd>bluesky mini</dd>
             <dt>Precio</dt>
-            <dd>$20.00</dd>
+            <dd>$117.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/agenda.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Borrador cutter $35.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Agenda</dd>
+            <dd>Borrador cutter</dd>
             <dt>Precio</dt>
-            <dd>$45.00</dd>
+            <dd>$35.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/carpeta individual.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Carpeta de oficina $92.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Carpeta individual</dd>
+            <dd>Carpeta de oficina</dd>
             <dt>Precio</dt>
-            <dd>$50.00</dd>
+            <dd>$92.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/carpeta.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/cintas de correccion $152.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Carpeta</dd>
+            <dd>cintas de correccion</dd>
             <dt>Precio</dt>
-            <dd>$40.00</dd>
+            <dd>$152.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/colores.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Estuche lapices $47.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Lapices de colores</dd>
+            <dd>Estuche lapices</dd>
             <dt>Precio</dt>
-            <dd>$36.00</dd>
+            <dd>$47.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/lapiceros.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Juego de lapices $500.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Lapiceros</dd>
+            <dd>Juego de lapices</dd>
             <dt>Precio</dt>
-            <dd>$10.00</dd>
+            <dd>$500.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/libreta.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/kit de papeleria $99.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Libreta</dd>
+            <dd>kit de papeleria</dd>
             <dt>Precio</dt>
-            <dd>$25.00</dd>
+            <dd>$99.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/marcadores.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Lapicero emoji $12.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Marcadores</dd>
+            <dd>Lapicero emoji</dd>
             <dt>Precio</dt>
-            <dd>$32.00</dd>
+            <dd>$12.00</dd>
           </dl>  
         </a>
       </figure>
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/plumon.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/notas autoadhesivas $166.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Plumon</dd>
+            <dd>notas autoadhesivas</dd>
             <dt>Precio</dt>
-            <dd>$15.00</dd>
+            <dd>$166.00</dd>
           </dl>  
         </a>
       </figure>
@@ -225,44 +225,28 @@
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/sacapuntas.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Pack de pepleria $111.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Sacapuntas</dd>
+            <dd>Pack de papeleria</dd>
             <dt>Precio</dt>
-            <dd>$10.00</dd>
+            <dd>$111.00</dd>
           </dl>  
         </a>
       </figure>
 
       <figure class="escolar">
         <a href="">
-          <img src="./../../assets/imagenes/productos/tijeras.jpg" alt="">
+          <img src="./../../assets/imagenes/Catalogo de productos/Escolar/Plumones gliter $128.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
-            <dd>Tijeras</dd>
+            <dd>Plumones gliter</dd>
             <dt>Precio</dt>
-            <dd>$16.00</dd>
+            <dd>$128.00</dd>
           </dl>  
         </a>
       </figure>
-    </section>
-    <!--<div class="contenedor">
-      <div class="contenedor1; imagenes" style="margin-left: 70px;">
-        <h5 style="font-size: 20px;">Ordenar por:</h5>     
-        <input type="radio" name="filtro" data-filtrer=".alfabetico" id="alfabetico" for="alfabetico">Alfabetico <br>
-        <input type="radio" name="filtro" data-filtrer="precio" id="precio" for="precio">Precio<br>
-        
-          <div id="imagenes">
-            <div class="alfabetico">
-                <img src="./../../assets/imagenes/productos/BROCHES.jpg" alt="" style="height: 200px; width: 250px">
-            </div><br><br><br>
-            <div class="precio">
-                <img src="./../../assets/imagenes/productos/descarga.jpg" alt="" style="height: 200px; width: 250px">
-            </div>
-          </div>
-      </div> 
-    </div>  -->  
+    </section> 
   </body>
   <script src="../productos/productos.component.js"></script>
 </html>

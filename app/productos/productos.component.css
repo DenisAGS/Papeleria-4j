@@ -34,6 +34,15 @@
   cursor: pointer;
 }
 
+.contenedor-direccion {
+  width: 496px;
+  height: 200px;
+}
+
+.datoscont{
+  display:block; 
+  font-size: large;
+}
 .boton1{
 	width: 10px;
 	height: 10px;
@@ -51,7 +60,7 @@
   }
   
 .contenedorBusqueda {
-  width: 1365px;
+  width: 1465px;
   height: 89px;
   margin: auto;
   display: flex;
@@ -60,13 +69,28 @@
   background-color: #EA899A;
 }
 
+/** logo**/
+
+.namePapeleria{ 
+  color: #333333; 
+  font-size: 30px; 
+  text-decoration: none; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagenlogo{
+  margin-left: 50px;
+  width:30px; 
+  height:39px;
+}
+
  /**Diseño buscador
 
 /***********************
  * Essential Structure *
  ***********************/
 .flexsearch--wrapper {
-    margin-left: 350px;
+  margin-left: 150px;
 	height: 80px;
 	width: auto;
 	overflow: hidden;

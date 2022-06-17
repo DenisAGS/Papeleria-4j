@@ -41,8 +41,8 @@
 }
 
 .size-product{
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
 }
 
 .relatedproducts{
@@ -73,6 +73,21 @@
   background-size:cover;
   padding-top: 12px;
   background-color: #EA899A;
+}
+
+/** logo**/
+
+.namePapeleria{ 
+  color: #333333; 
+  font-size: 30px; 
+  text-decoration: none; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagenlogo{
+  margin-left: 50px;
+  width:30px; 
+  height:39px;
 }
 
  /**Diseño buscador**/
