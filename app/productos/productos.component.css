@@ -26,7 +26,7 @@
     position:relative;
     transition: all .5s ease; /*Añadimos una transición para que realice un desplazamineto suave*/
 }
-.contenedor3{
+.contenedorMenu{
   position: relative;
 }
 
@@ -50,7 +50,7 @@
     text-decoration-line: none;
   }
   
-.contenedor2 {
+.contenedorBusqueda {
   width: 1365px;
   height: 89px;
   margin: auto;
@@ -154,49 +154,6 @@ input:-moz-placeholder {
 
 /**Catalogo diseño*/
 
-.conte_parent{
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  flex-wrap:wrap;
-  
-}
-.conte{
-    height: 510px;
-    width: 350px;
-    box-shadow:0 0 7px #111 ;
-    margin: 30px 30px;
-}
-.conte .card{
-    height: 100px;
-    width: 50%;
-    margin-bottom: 170px;
-}
-.card img{
-    margin: auto;
-    display: block;
-}
-.conte .stromtroper img{
-    height: 165px;
-    width: 150px;
-}
-.conte .stromtroper{
-     background-color: #111;
-}
-.conte .iron-man{
-    background-color: #6A0C0B;
-}
-.conte .spider-man{
-    background-color:#B11313;
-}
-.conte .iron-man img{
-    height: 165px;
-    width: 115px;
-}
-.conte .spider-man img{
-    height: 165px;
-    width: 150px;
-}
 .informacion{
     height: 40px;
     width: 50%;

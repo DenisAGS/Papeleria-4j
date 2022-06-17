@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="productos.component.scss">
   </head>
   <body>
-    <div class="contenedor3">
+    <div class="contenedorMenu">
       <input id="hamburger" class="hamburger" type="checkbox" />
       <label for="hamburger" class="hamburger">
           <i></i>
@@ -73,7 +73,7 @@
         </nav>
     </div>
    
-    <div class="contenedor2">
+    <div class="contenedorBusqueda">
       <button class="boton1" style="margin-right: 20px;">
           <a [routerLink]= "['/principal']">
               <img class="image--cover img-responsive" src="../../assets/imagenes/casa.png">
@@ -90,17 +90,10 @@
         </div>
       </div>
     </div>
-    <div class="">
-      <div class="contenedor1" style="margin-left: 70px;">
-        <h5 style="font-size: 20px;">Ordenar por:</h5>     
-        <input type="radio" name="filtro" data-filtrer=".alfabetico" id="alfabetico" for="alfabetico">Alfabetico <br>
-        <input type="radio" name="filtro" data-filtrer="precio" id="precio" for="precio">Precio<br>
-      </div> 
-    </div>
 
     <section class="work" style="margin-left: 50px;">
       <figure class="escolar">
-        <a href="">
+        <a [routerLink]= "['/informacion']">
           <img src="./../../assets/imagenes/productos/BROCHES.jpg" alt="">
           <dl>
             <dt>Escolar</dt>
@@ -269,7 +262,7 @@
             </div>
           </div>
       </div> 
-    </div>  -->       
+    </div>  -->  
   </body>
   <script src="../productos/productos.component.js"></script>
 </html>

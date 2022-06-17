@@ -1,112 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú lateral responsive - MagtimusPro</title>
-
-    <link rel="stylesheet" href="prueba.component.scss">
-
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./prueba.component.css">
+  <title>Document</title>
 </head>
-<input id="hamburger" class="hamburger" type="checkbox" />
-<label for="hamburger" class="hamburger">
-    <i></i>
-  </label>
-  <nav class="primnav">
-    <ul>
-      <li>
-        <a href="#dashboard">
-          <svg class="icon"><use xlink:href="#icon-th-large"></use></svg> Dashboard
-        </a>
-      </li>
-      <li>
-        <a href="#mail">
-          <svg class="icon"><use xlink:href="#icon-mail_outline"></use></svg> Mail
-          <div class="tag">53</div>
-        </a>
-        <ul class="secnav">
-          <li>
-            <a href="#inbox">Inbox</a>
-          </li>
-          <li>
-            <a href="#sent">Sent</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#notifications">
-          <svg class="icon"><use xlink:href="#icon-bell2"></use></svg> Notifications
-          <div class="tag">17</div>
-        </a>
-      </li>
-      <li>
-        <a href="#sysadmin">
-          <svg class="icon"><use xlink:href="#icon-equalizer"></use></svg> System Administration
-        </a>
-        <ul class="secnav">
-          <li>
-            <a href="#users">Users</a>
-          </li>
-          <li>
-            <a href="#lists">Lists</a>
-          </li>
-          <li>
-            <a href="#calendar">Calendar</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-
-<div class="contenedor">
-    <div id="imagenes">
-        <div class="conte esenciales">
-            <div class="card stromtroper">
-                <img src="../../assets/imagenes/casa.png" alt="">      
-            </div>
-            <div class="informacion">
-                <h1>Libreta</h1>
-            </div>
-            <div class="precio">
-                <div class="box-precio">
-                    <span class="shoping"><i class="fas fa-cart-plus"></i>12</span>
-                </div>
-            </div>
-            <div class="card stromtroper">
-                <img src="../../assets/imagenes/fondo.jpg" alt="">      
-            </div>
-            <div class="informacion">
-                <h1>Libreta</h1>
-            </div>
-            <div class="precio">
-                <div class="box-precio">
-                    <span class="shoping"><i class="fas fa-cart-plus"></i></span>
-                </div>
-            </div>
-        </div><br>
-        <div class="conte naturales">
-            <div class="card stromtroper">
-                <img src="../../assets/imagenes/fondo.jpg" alt="">      
-            </div>
-            <div class="informacion">
-                <h1>Libreta</h1>
-            </div>
-            <div class="precio">
-                <div class="box-precio">
-                    <span class="shoping"><i class="fas fa-cart-plus"></i></span>
-                </div>
-            </div>
-        </div><br>
-        <div class="genericos">
-
-        </div>
-        <div class="vitales">
-
-        </div>
-    </div>
-</div> 
-   
-
+<body>
+  <script>
+    $(document).ready(function(){
+        $('.zoom').hover(function() {
+            $(this).addClass('transition');
+        }, function() {
+            $(this).removeClass('transition');
+        });
+    });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <img src="./../../assets/imagenes/productos/agenda.jpg" class="zoom"/>
+</body>
 </html>
