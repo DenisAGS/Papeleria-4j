@@ -1,7 +1,7 @@
 ## 📦 Sistema de Gestión de Inventario para Papelería
 
 # 📝 Descripción
-Este proyecto es un sistema de gestión de inventario desarrollado para facilitar la administración de productos en una papelería. El sistema permite gestionar ventas, control de stock, registro de clientes y proveedores, entre otras funcionalidades, todo a través de una interfaz web intuitiva.
+Este proyecto es un sistema de gestión de inventario desarrollado para facilitar la administración de productos en una papelería. El sistema permite gestionar ventas, control de stock, registro de clientes, entre otras funcionalidades, todo a través de una interfaz web intuitiva.
 
 ## 🌟 Características
 * __Gestión de Inventario:__ Agregar, editar y eliminar productos con detalles como precio, cantidad y descripción.
